@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        input, select {
+            margin-bottom: 10px;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h2>Contries in Africal</h2>
+    <ol type="I">
+        <li>kenya</li>
+        <li>Uganda</li>
+        <li>South Africa</li>
+        <li>Nigeria</li>
+        <li>Tanzania</li>
+    </ol>
+
+  
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" 
+         alt="Beautiful Scenery" 
+         width="500" 
+         height="300">
+
+    
+    <h2>Contacts Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane myaboke</td>
+                <td>123 hyro,Kisii</td>
+                <td>+23312567890</td>
+                <td>jane@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>456 jaramogi Rd,Kisumu</td>
+                <td>+256789067987</td>
+                <td>john@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Alice wamae</td>
+                <td>789 kenyatta Rd, TX</td>
+                <td>+25471274567</td>
+                <td>alicewamae@gmil.com</td>
+            </tr>
+            <tr>
+                <td>Robert wema</td>
+                <td>321 kiambu, kenya</td>
+                <td>+225776666</td>
+                <td>wema@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nkatha Rugendo</td>
+                <td>654 chuka, meru</td>
+                <td>+25478891111</td>
+                <td>nkatharugendo@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+   
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br>
+
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+       
+        <label for="country">Select Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Choose Country--</option>
+            <option value="KEN">Kenya</option>
+            <option value="NIG">Nigeria</option>
+            <option value="SA">South Africa</option>
+            <option value="UG">Uganda</option>
+        </select><br>
+
+       
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+       
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="travel" name="interests" value="travel">
+        <label for="travel">Travel</label><br>
+
+        
+        <br>
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
